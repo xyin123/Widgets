@@ -1,0 +1,13 @@
+#---------配置工程下的忽略文件--------
+.gradle
+local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+build/
+captures/
+*.iml
+.idea
+projectFilesBackup/
+app/build/
+*.apk
