@@ -3,8 +3,13 @@
 
     <!--VerifyCodeView attribute-->
     <declare-styleable name="VerifyCodeView">
-        <attr name="box" format="integer"/>
-        <attr name="text_color" format="color"/>
+        <attr name="box_space" format="dimension" />
+        <attr name="box_padding" format="dimension" />
+        <attr name="box_num" format="integer" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension"/>
     </declare-styleable>
 
 </resources>
