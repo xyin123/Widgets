@@ -10,6 +10,8 @@
         <attr name="border_color" format="color" />
         <attr name="text_color" format="color" />
         <attr name="text_size" format="dimension"/>
+        <attr name="box_background" format="color"/>
+        <attr name="border_radius" format="dimension"/>
     </declare-styleable>
 
 </resources>

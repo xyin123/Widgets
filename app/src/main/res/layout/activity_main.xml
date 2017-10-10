@@ -11,11 +11,14 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        verifycodeview:border_color="#F7B060"
+        verifycodeview:border_color="#D3D3D3"
+        verifycodeview:border_radius="2dp"
         verifycodeview:border_width="2dp"
+        verifycodeview:box_background="#DCDCDC"
         verifycodeview:box_num="4"
         verifycodeview:box_padding="10dp"
-        verifycodeview:text_size="32sp"
-        verifycodeview:box_space="10dp" />
+        verifycodeview:box_space="10dp"
+        verifycodeview:text_color="#9911"
+        verifycodeview:text_size="32sp" />
 
 </RelativeLayout>
