@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:verifycodeview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.xyin.widgetlib.sample.CodeActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <com.xyin.widgetlib.widgetlib.VerifyCodeView
+        android:id="@+id/codeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        verifycodeview:borderColor="#e8e8e8"
+        verifycodeview:borderRadius="2dp"
+        verifycodeview:borderSelectedColor="#ffcc00"
+        verifycodeview:borderWidth="1dp"
+        verifycodeview:boxBackground="#ffffff"
+        verifycodeview:boxNum="4"
+        verifycodeview:boxPadding="10dp"
+        verifycodeview:boxSpace="10dp"
+        verifycodeview:textColor="#ff000000"
+        verifycodeview:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="设置默认值9876" />
+
+</LinearLayout>

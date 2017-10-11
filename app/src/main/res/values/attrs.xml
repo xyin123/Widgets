@@ -3,15 +3,16 @@
 
     <!--VerifyCodeView attribute-->
     <declare-styleable name="VerifyCodeView">
-        <attr name="box_space" format="dimension" />
-        <attr name="box_padding" format="dimension" />
-        <attr name="box_num" format="integer" />
-        <attr name="border_width" format="dimension" />
-        <attr name="border_color" format="color" />
-        <attr name="text_color" format="color" />
-        <attr name="text_size" format="dimension"/>
-        <attr name="box_background" format="color"/>
-        <attr name="border_radius" format="dimension"/>
+        <attr name="boxSpace" format="dimension" />
+        <attr name="boxPadding" format="dimension" />
+        <attr name="boxNum" format="integer" />
+        <attr name="borderWidth" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="boxBackground" format="color" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderSelectedColor" format="color" />
     </declare-styleable>
 
 </resources>
