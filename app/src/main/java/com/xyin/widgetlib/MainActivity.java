@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * 验证码输入框.
+     * @param view view
+     */
     public void toCodeView(View view) {
         to(CodeActivity.class);
     }
